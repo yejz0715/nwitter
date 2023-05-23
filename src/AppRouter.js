@@ -5,10 +5,10 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
-import Auth from "./components/Auth";
-import Home from "./components/Home";
+import Auth from "./components/auth/Auth";
+import Home from "./components/main/Home";
 import Navigation from "./components/common/Navigation";
-import Profile from "./components/Profile";
+import Profile from "./components/profile/Profile";
 const AppRouter = ({ isLogin }) => {
   return (
     <Router>
